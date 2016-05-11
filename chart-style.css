@@ -1,0 +1,35 @@
+/* Chart Styling */
+.chart-title {
+  font-weight: 600;
+  font-style: normal;
+  font-family: arial;
+  font-size: 18px;
+  color: #000;
+}
+
+.axis path {
+  fill: none;
+  stroke: #777;
+  shape-rendering: crispEdges;
+}
+
+.axis tick {
+  fill: none;
+  stroke: #777;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: Lato;
+  font-size: 13px;
+}
+
+.axis-label {
+  font-family: arial;
+  font-size: 18px;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+}
