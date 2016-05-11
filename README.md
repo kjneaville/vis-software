@@ -11,7 +11,7 @@ You may use either object formatted data or a csv file.
 ## API Functions
 
 \# *lineChart*(target)
-> This will construct a lineChart object with the target <div> set to the given target parameter
+> This will construct a lineChart object with the target div set to the given target parameter
 
 \# *lineChart.data*(value)
 > This will set the data in the chart equal to the value given, either object data or csv file.
