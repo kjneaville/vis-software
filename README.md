@@ -14,16 +14,13 @@ You may use either object formatted data or a csv file.
 > This will construct a lineChart object with the target <div> set to the given target parameter
 
 \# *lineChart.data*(value)
-> This will set the data in the chart equal to the value given, either object data or
-csv file.
+> This will set the data in the chart equal to the value given, either object data or csv file.
 
 \# *lineChart.xVarName*(string)
-> This will tell the chart that x-axis variable name is equal to the string given as a
-parameter.
+> This will tell the chart that x-axis variable name is equal to the string given as a parameter.
 
 \# *lineChart.yVarName*(string)
-> This will tell the chart that y-axis variable name is equal to the string given as a
-parameter.
+> This will tell the chart that y-axis variable name is equal to the string given as a parameter.
 
 \# *lineChart.xVarFormat*(string)
 > This will tell the chart how to format the x-axis variable data, using d3.format standards
@@ -34,16 +31,13 @@ For help, use http://bl.ocks.org/zanarmstrong/05c1e95bf7aa16c4768e
 For help, use http://bl.ocks.org/zanarmstrong/05c1e95bf7aa16c4768e
 
 \# *lineChart.width*(integer)
-> This will set the chart's width to the given integer parameter. The width includes all
-margins, axex, titles, and labels.
+> This will set the chart's width to the given integer parameter. The width includes all margins, axex, titles, and labels.
 
 \# *lineChart.height*(integer)
-> This will set the chart's height to the given integer parameter. The width includes all
-margins, axex, titles, and labels.
+> This will set the chart's height to the given integer parameter. The width includes all margins, axex, titles, and labels.
 
 \# *lineChart.color*(string)
-> This will set the chart's color to the given string parameter. Only string's are accepted,
-no hex, rgb, or cymk.
+> This will set the chart's color to the given string parameter. Only string's are accepted, hex, rgb, and cymk are not.
 
 \# *lineChart.title*(string)
 > This will set the chart's title to the given string parameter.
