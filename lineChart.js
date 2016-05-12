@@ -29,6 +29,8 @@ function lineChart(target) {
     var gWidth = (width - ( 2 * marginLeft) - marginRight);
     var gHeight = (height - marginTop - (2 * marginBottom));
 
+    // Trying to get both types of data working, csv still not working.
+    // Encountering errors with how csv loads data.
     if (typeof data == "object") {
       data.forEach(function(d) {
         xVar.push(d[xVarName] + 0);

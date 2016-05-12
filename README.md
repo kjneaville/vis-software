@@ -6,7 +6,7 @@ Use it to create single line charts.
 The x-axis and y-axis variable must be formatted as a single number, even if it is a date,
 (EX: May 11 2016 = 20160511).
 
-You may use either object formatted data or a csv file.
+You may use either object formatted data.
 
 ## API Functions
 
@@ -14,7 +14,7 @@ You may use either object formatted data or a csv file.
 > This will construct a lineChart object with the target div set to the given target parameter
 
 \# *lineChart.data*(value)
-> This will set the data in the chart equal to the value given, either object data or csv file.
+> This will set the data in the chart equal to the value given, either object data.
 
 \# *lineChart.xVarName*(string)
 > This will tell the chart that x-axis variable name is equal to the string given as a parameter.
