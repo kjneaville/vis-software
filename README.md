@@ -7,6 +7,14 @@ The x-axis and y-axis variable must be formatted as a single number, even if it 
 (Ex: May 11 2016 = 20160511).
 
 Must use object formatted data.
+(Ex:
+  var data = [
+    {x: 12, y: 14},
+    {x: 19, y: 20.5},
+    ...
+    {x: 9.2, y: 3.7}
+  ];
+)
 
 ## API Functions
 
