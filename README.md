@@ -4,9 +4,9 @@ Visualization Software using d3.js to create line charts.
 ## Usage
 Use it to create single line charts.
 The x-axis and y-axis variable must be formatted as a single number, even if it is a date,
-(EX: May 11 2016 = 20160511).
+(Ex: May 11 2016 = 20160511).
 
-You may use either object formatted data.
+Must use object formatted data.
 
 ## API Functions
 
