@@ -46,6 +46,13 @@ function lineChart(target) {
         .get(function(error, rows) {});
     }
 
+    /*completeData = [ {x: 0, y: 0}, {x: 6, y: 3.7}, {x: 12, y: 14}, {x: 18, y: 20.5} ];
+    xVar = [0, 6, 12, 18];
+    yVar = [0, 3.7, 14, 20.5];*/
+    console.log(completeData);
+    console.log(xVar);
+    console.log(yVar);
+
     var xMin = d3.min(xVar);
     var xMax = d3.max(xVar);
     var xScale = d3.scale.linear().range([0, gWidth]).domain([xMin, xMax]);
